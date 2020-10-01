@@ -52,18 +52,25 @@ a:visited{
 a:hover{
     color: #FF7E00;
 }
-button{
+.button {
     width: 197px;
     height: 42px;
-    left: 108px;
-    margin-bottom: 146px;
+    line-height: 42px;
+    text-align: center;
     background: #FFC862;
     border-radius: 4px;
     border: none;
     text-decoration: none;
     font-size: 16px;
     color: #602F00;
-    padding-top: 0;
+   
+}
+
+.button:visited{
+    color:#602F00;
+}
+.button:hover{
+    color: #FF7E00;
 }
 
 .main{
@@ -81,16 +88,23 @@ button{
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .fl-l{
-    padding-top: 87px;
     width: 40%;
     font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    
 }
 .fl-r{
-    width: 30%;
-    margin-top: 20px;
-    margin-right: 160px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
     
 }
 h1{
@@ -98,7 +112,6 @@ h1{
     font-style: normal;
     font-weight: 900;
     font-size: 46px;
-    line-height: 56px;  
     text-transform: uppercase;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -107,6 +120,9 @@ p{
     font-size: 15px;
     line-height: 23px;
     font-weight: 400;
-    padding-bottom: 26px;
+   
+}
+.wlc{
+    text-align: left;
 }
 
