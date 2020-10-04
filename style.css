@@ -64,8 +64,7 @@ a:hover{
 .button:hover{
     color: #FF7E00;
 }
-.main{
-}
+
 .hero{
     background-image: url(bi.png);
     background-size: cover;
@@ -107,7 +106,32 @@ p{
     font-weight: 400; 
     margin-bottom: 80px;
 }
-.wlc{
-    text-align: left;
+.reasons{
+    color: #3A1D00;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+}
+.r-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 45px;
+}
+.block-img{
+    width: 325px;
+    height: 273px;
+    background: #FFC862;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+}
+.block-img-p{
+    border-radius: 10px;
+}
+img2{
+    width: 100%;
 }
 
