@@ -91,7 +91,7 @@ a:hover{
     width: 50%;
     text-align: right; 
 }
-h1{
+.wlc{
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: 900;
@@ -199,15 +199,16 @@ p{
 }
 .bast-left{
     width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+    padding: 96px 40px;
+    
 }
 .bast-right{
     width: 55%;
     text-align: right;
 }
-
+.imgs{
+   width: 100%;
+}
 
 
 
