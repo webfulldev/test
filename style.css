@@ -209,6 +209,32 @@ p{
 .imgs{
    width: 100%;
 }
+.footer{
+    width: 100%;
+    height: 160px;
+    color: #909090;
+    background-color: #F5F5F9;
+    background-size: cover; 
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.menu-link-f{
+    
+    margin-left: 18px;
+    font-size: 16px;
+    color: #909090; 
+}
+.footer-loc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.
 
 
 
