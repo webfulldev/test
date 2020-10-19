@@ -81,14 +81,14 @@ a:hover{
     vertical-align: middle;
 }
 .fl-l{
-    width: 40%;
+    width: 35%;
     font-weight: 900;
     display: flex;
     flex-direction: column;
     align-items: left; 
 }
 .fl-r{
-    width: 50%;
+    width: 40%;
     text-align: right; 
 }
 .wlc{
@@ -231,10 +231,25 @@ p{
 .footer-loc{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   
+    align-items: center; 
 }
-.
+@media(max-width: 1279px){ 
+    inner-padding {
+       padding-left: 40px;
+       padding-right: 40px;
+    }
+    .outer-width {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .hero{
+        height: 387px;
+    }
+    .wlc{
+        font-size: 36px;
+    }
+}
+   
 
 
 
