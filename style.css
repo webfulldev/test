@@ -265,6 +265,9 @@ p{
     .hero__sub{
         margin-bottom: 20px;
     }
+    .hero__img{
+        min-width: 100%;
+    }
 }
    
 
