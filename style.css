@@ -79,6 +79,7 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     vertical-align: middle;
+    flex-wrap: wrap;
 }
 .fl-l{
     width: 35%;
@@ -90,6 +91,7 @@ a:hover{
 .fl-r{
     width: 40%;
     text-align: right; 
+    
 }
 .wlc{
     font-family: Proxima Nova;
@@ -234,7 +236,7 @@ p{
     align-items: center; 
 }
 @media(max-width: 1279px){ 
-    inner-padding {
+    .inner-padding {
        padding-left: 40px;
        padding-right: 40px;
     }
@@ -244,9 +246,24 @@ p{
     }
     .hero{
         height: 387px;
+        max-width: 100%;
     }
     .wlc{
         font-size: 36px;
+        margin-top: 0;
+    }
+    .fl-l{
+        width: 50%;
+    }
+    .fl-r{
+        width: 50%;
+    }
+    .button{
+        margin-top: 0;
+        margin-bottom: 63px;
+    }
+    .hero__sub{
+        margin-bottom: 20px;
     }
 }
    
