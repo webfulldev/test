@@ -79,7 +79,7 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     vertical-align: middle;
-    flex-wrap: wrap;
+    
 }
 .fl-l{
     width: 35%;
@@ -250,13 +250,14 @@ p{
     }
     .wlc{
         font-size: 36px;
-        margin-top: 0;
+        margin-top: 54px;
     }
     .fl-l{
         width: 50%;
     }
     .fl-r{
         width: 50%;
+        flex-wrap: wrap;
     }
     .button{
         margin-top: 0;
@@ -266,7 +267,7 @@ p{
         margin-bottom: 20px;
     }
     .hero__img{
-        min-width: 100%;
+        max-width: 100%;
     }
 }
    
