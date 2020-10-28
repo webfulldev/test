@@ -214,7 +214,7 @@ p{
 }
 .footer{
     width: 100%;
-    height: 150px;
+    height: 100%;
     color: #909090;
     background-color: #F5F5F9;
     background-size: cover; 
@@ -223,10 +223,8 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
 }
 .menu-link-f{
-    
     margin-left: 18px;
     font-size: 16px;
     color: #909090; 
@@ -235,6 +233,9 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center; 
+}
+.footer__sub{
+    margin-bottom: 0;
 }
 @media(max-width: 1279px){ 
     .inner-padding {
