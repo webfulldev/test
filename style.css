@@ -121,6 +121,7 @@ p{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    flex-direction: row;
     
 }
 .block-img{
@@ -131,9 +132,7 @@ p{
     margin: 15px;
     text-align: center;
     transition-duration: 2s;
-   
-
-    
+    flex-direction: row;
 }
 .img-back{
     width: 325px;
@@ -176,9 +175,7 @@ p{
     transform: translate(-20px, -20px); 
 }
 .block-img:hover .text{
-    color: white;
-]
-  
+    color: white;  
 }
 .block-img:hover{
     background: #FF7E00;
@@ -232,12 +229,12 @@ p{
 .footer-loc{
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 .footer__sub{
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
-@media(max-width: 1279px){ 
+@media(max-width: 1279px) { 
     .inner-padding {
        padding-left: 40px;
        padding-right: 40px;
@@ -270,6 +267,9 @@ p{
     }
     .hero__img{
         max-width: 100%;
+    }
+    .r-img{
+        flex-direction: row;  
     }
 }
    
