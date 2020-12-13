@@ -278,7 +278,7 @@ p{
        padding-right: 50px;
     }
     .outer-width {
-        max-width: 320px;
+        max-width: 100%;
         margin: 0 auto;
     }
     p {
@@ -320,6 +320,7 @@ p{
     }
     .r-img{
         flex-direction: row;  
+        justify-content: center;
     }
     .bast-left{
         margin-top: 40px;
@@ -328,6 +329,9 @@ p{
     }
     .bast-right {
         width: 40%;
+    }
+    .footer__logo{
+        justify-content: center;
     }
 }
 
