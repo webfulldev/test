@@ -212,24 +212,44 @@ p{
     color: #909090;
     background-color: #F5F5F9;
     background-size: cover; 
+    margin-top: 20px;
 }
 .footer-menu{
     display: flex;
+    /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
+}
+.footer__left {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
 }
 .menu-link-f{
     margin-left: 18px;
     font-size: 16px;
     color: #909090; 
 }
-.footer-loc{
+/* .footer-loc{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 .footer__sub{
     margin-bottom: 20px;
+    text-align: end;
+    
+}
+.menu__ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none; 
 }
 @media screen and (max-width: 1279px) { 
     .inner-padding {
